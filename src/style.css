@@ -1,0 +1,173 @@
+body {
+    margin: 0; 
+}
+.canvas{
+    width: 100vw; 
+    height: 100%;
+    min-height: 100vh;
+    background-color: rgb(162, 241, 217);
+    display: flex;
+}
+.bmo-body{
+    margin: auto;
+    width: 320px;
+    height: 425px;
+    background-color: rgb(37,174,158); 
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bmo-face {
+    margin-top: 40px;
+    width: 80%; 
+    height: 25%; 
+    background-color: rgb(186, 221, 201);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.bmo-face_eyes{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around; 
+}
+.face-eye{
+    margin-top: 20px; 
+    width: 10px; 
+    height: 10px;
+    background-color: black;
+    border-radius:50%; 
+}
+.bmo-face_mouth{
+    margin-bottom: 20px; 
+    width: 80px; 
+    height: 100px;
+    border-bottom:5px solid black; 
+    border-radius: 40%;
+    align-self: center;
+}
+.bmo-body_buttons{
+    width: 100%;
+    height: 70%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-line_buttons{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.long-button {
+   width: 200px; 
+   height: 10px; 
+   background-color: rgb(0, 78, 54) ; 
+   border: 2px solid black;
+   border-radius: 5px;
+}
+.small-button {
+   width: 20px; 
+   height: 20px; 
+   background-color: rgb(2, 71, 126) ; 
+   border: 2px solid black;
+   border-radius: 50%;
+}
+.left-line_buttons {
+    width: 50%;
+    height: 60%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rigth-line_buttons{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cross-button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cross-side{
+    width: 15px;
+    height: 15px;
+    border: 2px solid black; 
+    background-color: rgb(252, 207, 80);
+}
+#top{
+    height: 10px;
+    border-bottom: none; 
+}
+#left{
+    border-right: none;
+}
+#center{
+    height: 19px;
+    border: none; 
+}
+#rigth{
+    border-left: none; 
+}
+#bottom{
+    height: 10px;
+    border-top: none;
+}
+.center-items_cross{
+    display: flex;
+}
+.short-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.short-button{
+    width: 50px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(2, 71, 126); 
+}
+.round-big-button{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(236, 59, 69);
+    border: 2px solid black; 
+    border-radius: 50%;
+}
+.triangle-button{
+    margin-left: 40px;
+    width:0px;
+    height: 0px;
+    border-bottom: 40px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent; 
+    display: flex;
+    justify-content: center;
+}
+.interior-button{
+    width:0px;
+    height: 0px;
+    border-bottom: 40px solid rgb(68, 192, 220);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent; 
+    transform: scale(0.9);
+}
+.round-small_button{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(107, 187, 100);
+    border: 2px solid black; 
+    border-radius: 50%;
+}
+.round-buttons_container{
+    display: flex;
+    justify-content: space-evenly;
+}
